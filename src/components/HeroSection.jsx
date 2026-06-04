@@ -879,7 +879,7 @@ const SettingsView = ({ showToast }) => {
               </label>
               <input
                 type="text"
-                defaultValue="GSM Academy"
+                defaultValue="GSP Academy"
                 className="w-full px-3 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
               />
             </div>
@@ -889,7 +889,7 @@ const SettingsView = ({ showToast }) => {
               </label>
               <input
                 type="email"
-                defaultValue="support@gsmacademy.in"
+                defaultValue="support@gspacademy.in"
                 className="w-full px-3 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none"
               />
             </div>
@@ -970,7 +970,7 @@ export default function HeroSection() {
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white">
                 G
               </div>
-              GSM Academy
+              GSP Academy
             </h1>
             <p className="text-xs text-slate-400 mt-1">
               Manage Leads, Payments Seamlessly
