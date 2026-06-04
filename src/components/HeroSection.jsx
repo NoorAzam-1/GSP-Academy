@@ -1028,7 +1028,7 @@ export default function HeroSection() {
       <main className="flex-1 flex flex-col min-w-0 overflow-hidden">
         {/* Top Header */}
         <header className="bg-white border-b border-slate-200 h-16 flex items-center justify-between px-4 sm:px-6 z-10 shrink-0">
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-1 md:gap-4">
             <button
               className="lg:hidden text-slate-500 hover:text-slate-700"
               onClick={() => setIsMobileMenuOpen(true)}
