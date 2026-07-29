@@ -73,12 +73,12 @@ export const MONTHS = [
 ];
 
 export const REVENUE_DATA = [
-  { month: "Jan", revenue: 120000 },
-  { month: "Feb", revenue: 150000 },
-  { month: "Mar", revenue: 180000 },
-  { month: "Apr", revenue: 220000 },
-  { month: "May", revenue: 280000 },
-  { month: "Jun", revenue: 140000 },
+  { month: "Jan", revenue: 12000 },
+  { month: "Feb", revenue: 15000 },
+  { month: "Mar", revenue: 18000 },
+  { month: "Apr", revenue: 22000 },
+  { month: "May", revenue: 28000 },
+  { month: "Jun", revenue: 14000 },
 ];
 
 export const COURSE_DISTRIBUTION = [
