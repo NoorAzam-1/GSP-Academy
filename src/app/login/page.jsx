@@ -47,7 +47,7 @@ export default function LoginPage() {
       <Card className="w-full max-w-md">
         <div className="p-8">
           <div className="text-center mb-4 flex flex-col justify-center items-center">
-            <div className="w-40 ">
+            <div className="w-60 h-full">
               <Image src="/gsp-academy.jpg" alt="logo" height={200} width={200} className="h-full w-full object-cover" />
             </div>
             <p className="text-slate-500 text-sm mt-1">
