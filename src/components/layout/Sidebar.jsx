@@ -55,21 +55,21 @@ export default function Sidebar({ isOpen, onClose }) {
           ${isOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"}
         `}
       >
-        <div className="p-6 flex items-center justify-between">
-          <div className="flex flex-col items-center border-b border-slate-800 p-6">
-            <div className="relative h-20 w-20 rounded-xl bg-slate-800">
+        <div className="px-4 py-6 flex items-center justify-between">
+          <div className="flex flex-col items-center justify-center border-b border-blue-600 pb-2">
+            <div className="relative h-7 w-full">
               <Image
                 src="/gsp-academy.jpg"
                 alt="GSP Academy"
                 fill
                 priority
-                quality={90}
+                quality={300}
                 sizes="80px"
-                className="rounded-xl object-contain"
+                className="object-contain h-full w-full"
               />
             </div>
 
-            <p className="mt-3 text-center text-xs text-slate-400">
+            <p className="mt-1 text-xs text-slate-400">
               Manage Leads & Payments Seamlessly
             </p>
           </div>
@@ -78,7 +78,7 @@ export default function Sidebar({ isOpen, onClose }) {
           </button>
         </div>
 
-        <nav className="flex-1 px-4 space-y-1 overflow-y-auto">
+        <nav className="flex-1 px-3 space-y-1 overflow-y-auto">
           {navItems.map((item) => {
             const Icon = iconMap[item.icon];
             const isActive =
@@ -105,7 +105,7 @@ export default function Sidebar({ isOpen, onClose }) {
           })}
         </nav>
 
-        <div className="p-4 border-t border-slate-800">
+        <div className="p-3 border-t border-slate-800">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-sm font-bold text-white">
               {user ? getInitials(user.name) : "AD"}
