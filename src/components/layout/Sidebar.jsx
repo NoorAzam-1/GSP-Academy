@@ -56,19 +56,21 @@ export default function Sidebar({ isOpen, onClose }) {
         `}
       >
         <div className="p-6 flex items-center justify-between">
-          <div className="flex flex-col justify-center items-center">
-            <div className="w-full h-full">
+          <div className="flex flex-col items-center border-b border-slate-800 p-6">
+            <div className="relative h-20 w-20 rounded-xl bg-slate-800">
               <Image
                 src="/gsp-academy.jpg"
-                alt="logo"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                height={200}
-                width={200}
-                className="h-full w-full object-cover"
+                alt="GSP Academy"
+                fill
+                priority
+                quality={90}
+                sizes="80px"
+                className="rounded-xl object-contain"
               />
             </div>
-            <p className="text-slate-500 text-sm mt-1">
-              Manage Leads, Payments Seamlessly
+
+            <p className="mt-3 text-center text-xs text-slate-400">
+              Manage Leads & Payments Seamlessly
             </p>
           </div>
           <button className="lg:hidden text-slate-400" onClick={onClose}>
